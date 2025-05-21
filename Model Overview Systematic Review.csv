@@ -1,0 +1,92 @@
+Model Name,Algorithmic Descitption,Advantages,Disadvantages
+"Support Vector 
+Machine (SVM)","Identifies an optimal line or hyperplane, which maximises 
+class division in a multidimensional space","Functions well in smaller datasets,
+can handle non-linear data and is robust
+to over-fitting in high-dimensional data.","Sensitive to noise and can be 
+expensive for large datasets."
+"Linear Discriminant 
+Analysis (LDA)","Projects the data into lower dimensional space and then identifies 
+a linear combination of characteristics representative of the classes.","Can handle high-dimensional 
+and multicollinear data.","May struggle if classes have 
+strong overlap and requires 
+several assumptions to be met."
+Neural Network,"An overarching term to denote a group of algorithms which use 
+neuron-based layers for classification and regression problems. 
+The most commonly used examples include Convolutioanal 
+Neural Networks and Recurrent Neural Networks.","High classification performance and 
+automatic feature extraction.","Prone to overfitting in small 
+datasets and computationally
+expensive."
+"K Nearest Neighbors 
+(KNN)","Classifies instances based on the most proximate instances in a 
+multidimensional space using a specified distance metric.","Easily implemented and adapted. Allows 
+for online updating of training data.","Prone to overfitting and can 
+become computationally 
+expensive."
+Gradient Boosting,"A boosting algorithm which combines several models to 
+improve learning outcomes. Each sequential model tries 
+to correct the previous models' mistakes.","Generally higher performance than other
+algorithms and can handle missing data.","Prone to overfitting and 
+computationally expensive."
+"Classification and
+Regression Tree (CART)","A non-parametric decision-tree algorithm that can complete 
+classification or regression tasks depending on the specified 
+outcome variable.","Robust to outliers, 
+nonparametric and nonlinear.","Prone to overfitting and 
+unstable performance."
+Logistic Regression,"A binary model which computes classification 
+tasks by estimating the probability of each outcome.",Efficient to implement and train.,"Assumes linearity between the
+dependent and independent
+variables. Can overfit in high-
+dimensional data sets."
+Random Forest,"An ensemble method combining a multitude of decision 
+tress and bootstrapped data for more robust outcomes.","Can be used for classification 
+and regression, robust to outliers, 
+low risk of overfitting.","Can be time consuming and 
+computationally expensive depending
+on hyperparameters."
+Naive Bayes,"Predicts the class of a data point based on Bayes’ Theorem, 
+assuming that all features are conditionally independent given 
+the class. It calculates the probability of each class given the 
+input features and selects the class with the highest probability.","Works well for high-dimensional data 
+and small datasets.","Assumes independence and can be
+easily influenced by noise. "
+Linear Regression,"Models the relationship between a dependent variable and one or 
+more independent variables by fitting a straight line that minimises 
+the difference between predicted and actual values.
+","Relatively simple and computationally 
+efficient. Robust to outliers.
+","Assumes a linear relationship between
+predictors and outcomes, sensitive to 
+multicollinearity, susceptible to both 
+overfitting and underfitting."
+Decision Tree,"A decision tree classifies instances based on a series 
+of features, which are selected based on their ability 
+to reduce entropy in the dataset.","Requires little data engineering, easy to 
+interpret, can be used for classification or
+regression.","Can be computationally expensive,
+prone to overfitting and sensitive to
+small data variations."
+"Fisher Discriminant 
+Analysis","Fisher Discriminant Analysis projects high-dimensional data 
+onto a line that maximizes the separation between multiple 
+classes by maximizing the ratio of between-class variance 
+to within-class variance.","Robust to small sample sizes, works well 
+for data that can be linearly seperated.","Assumes gaussian distribution,
+can only linearly seperate data,
+sensitive to outliers and imbalanced 
+data."
+"Quadratic Discriminant 
+Analysis","Models each class with its own multivariate Gaussian 
+distribution, which results in curved decision boundaries. 
+It classifies observations by computing the posterior 
+probability for each class and choosing the most likely one.","Has a flexible decision boundary and can 
+handle varying within-class variance.","Prone to overfitting and sensitive
+to outliers and noise in the data."
+"Gaussian Process 
+Regression","A non-parametric, Bayesian approach to regression that defines a 
+prior over functions and updates it with training 
+data to form a posterior.","Can handle small dataset, nonparametric 
+and flexible.","Can be computationally expensive,
+requires careful data preprocessing."
